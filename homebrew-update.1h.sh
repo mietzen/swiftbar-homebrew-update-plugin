@@ -1,8 +1,19 @@
 #!/usr/bin/env bash
 
+# <xbar.title>Homebrew menu</xbar.title>
+# <xbar.version>v1.0</xbar.version>
+# <xbar.author>Nils Stein</xbar.author>
+# <xbar.author.github>mietzen</xbar.author.github>
+# <xbar.desc>Show and apply homebrew formulae and casks updates</xbar.desc>
+# <swiftbar.hideAbout>true</swiftbar.hideAbout>
+# <swiftbar.hideRunInTerminal>true</swiftbar.hideRunInTerminal>
+# <swiftbar.hideLastUpdated>true</swiftbar.hideLastUpdated>
+# <swiftbar.hideDisablePlugin>true</swiftbar.hideDisablePlugin>
+# <swiftbar.hideSwiftBar>true</swiftbar.hideSwiftBar>
+
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 SCRIPT_NAME=$(basename "$0")
-ASSETS_DIR=${SCRIPT_DIR}/homebrew-update/assets
+ASSETS_DIR=${SCRIPT_DIR}/assets
 MAX_LOG_HISTORY=10000
 IGNORE_FILE=${ASSETS_DIR}/brew-upgrade-ignore.json
 LOG_FILE=${ASSETS_DIR}/brew-upgrade.log
