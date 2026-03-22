@@ -1,6 +1,8 @@
-# xbar Homebrew Update
+# SwiftBar Homebrew Update
 
 This [SwiftBar](https://github.com/swiftbar/SwiftBar) plugin let's you update `formulae` and `casks`.
+
+SwiftBar is a successor to [xbar](https://github.com/matryer/xbar) which this plugin was orginally wrote for.
 
 ## Install
 
