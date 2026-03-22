@@ -10,7 +10,7 @@ Download and install the plugin:
 
 ```shell
 mkdir "~/.swiftbar/homebrew-update"
-wget -qO- https://github.com/mietzen/xbar-homebrew-update-plugin/archive/refs/heads/main.tar.gz | tar xvz -C "~/.swiftbar/homebrew-update" --strip-components=1
+wget -qO- https://github.com/mietzen/swiftbar-homebrew-update-plugin/archive/refs/heads/main.tar.gz | tar xvz -C "~/.swiftbar/homebrew-update" --strip-components=1
 ```
 
 ### Working with "sudo" casks
