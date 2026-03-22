@@ -6,6 +6,8 @@ SwiftBar is a successor to [xbar](https://github.com/matryer/xbar) which this pl
 
 ## Install
 
+I assume you plugin folder is set to `~/.swiftbar/`
+
 Download and install the plugin:
 
 ```shell
